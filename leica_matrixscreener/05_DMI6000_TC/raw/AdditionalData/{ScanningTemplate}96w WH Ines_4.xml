@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<MatrixScreenerTemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScanningTemplate>
+    <Properties Version="Version: 1.0.4.947 -- Build 09.06.2016" TotalCountOfFields="96" TotalCountOfWells="96" TotalAssignedJobs="92" UniqueJobCounter="1">
+      <CurrentDate>sexta-feira, 3 de janeiro de 2020 | 11:48</CurrentDate>
+      <EnableJumpOverObstacle>false</EnableJumpOverObstacle>
+      <ObstacleHeight>0</ObstacleHeight>
+      <EnableTrigger>false</EnableTrigger>
+      <TriggerRepeatCycles>1</TriggerRepeatCycles>
+      <DriftScanRange>30</DriftScanRange>
+      <DriftSliceCount>7</DriftSliceCount>
+      <EnableCAM>false</EnableCAM>
+      <ShowPumpFields>false</ShowPumpFields>
+      <EnablePump>false</EnablePump>
+      <PumpRepeatInterval>1</PumpRepeatInterval>
+      <PumpDelay>1000</PumpDelay>
+      <PumpTime>1000</PumpTime>
+      <EnableContextMenu>true</EnableContextMenu>
+      <ContextType>eMatrixContextStripe</ContextType>
+      <ScanningTemplateType>eIsMatrixTemplate</ScanningTemplateType>
+      <EnableTrackRemoveBoundaryObjects>false</EnableTrackRemoveBoundaryObjects>
+      <EnableTrackRemoveSmallObjects>false</EnableTrackRemoveSmallObjects>
+      <TrackAdaptiveThreshold>3</TrackAdaptiveThreshold>
+      <TrackSizeOfSmallObject>15</TrackSizeOfSmallObject>
+      <TrackRepeatInterval>1</TrackRepeatInterval>
+      <ShowTrackingFields>false</ShowTrackingFields>
+      <EnableTracking>false</EnableTracking>
+      <FixHeigthOfWell>100</FixHeigthOfWell>
+      <FixWidthOfWell>100</FixWidthOfWell>
+      <HoldSize>false</HoldSize>
+      <TextColorHeatMapDescription>808080</TextColorHeatMapDescription>
+      <DrawRandomizedTestHeatMap>false</DrawRandomizedTestHeatMap>
+      <EnableLUTBarInAgenda>false</EnableLUTBarInAgenda>
+      <LUTBarDescription>Focus Map</LUTBarDescription>
+      <LUTBarUpperText>-- 4396.5 µm</LUTBarUpperText>
+      <LUTBarLowerText>-- 4144.3 µm</LUTBarLowerText>
+      <LUTBarInHeight>144</LUTBarInHeight>
+      <EnableHeatMap>false</EnableHeatMap>
+      <HeatMapType>IsFocusMap</HeatMapType>
+      <HeatMapLUT>LUT_JET</HeatMapLUT>
+      <ColorWellOutlineSelected>DAA520</ColorWellOutlineSelected>
+      <ColorInActiveScanField>808080</ColorInActiveScanField>
+      <ColorScanFieldBoundary>000000</ColorScanFieldBoundary>
+      <ColorScanFieldForTracking>00FF00</ColorScanFieldForTracking>
+      <ColorCurrentScanField>00FF00</ColorCurrentScanField>
+      <ColorActiveScanField>404040</ColorActiveScanField>
+      <ColorWellOutline>000000</ColorWellOutline>
+      <ColorWellFilled>23272E</ColorWellFilled>
+      <EnableMultiSelection>false</EnableMultiSelection>
+      <ColorSelectedFields>9ACD32</ColorSelectedFields>
+      <EnableRubberBand>true</EnableRubberBand>
+      <ColorRubberBand>C00000</ColorRubberBand>
+      <ScanFieldEffectDesign>None</ScanFieldEffectDesign>
+      <ScanFieldShapeDesign>IsCircle</ScanFieldShapeDesign>
+      <ScanFieldDistanceX>2</ScanFieldDistanceX>
+      <ScanFieldDistanceY>2</ScanFieldDistanceY>
+      <ScanFieldDiameter>20</ScanFieldDiameter>
+      <CountOfScanFieldsX>1</CountOfScanFieldsX>
+      <CountOfScanFieldsY>1</CountOfScanFieldsY>
+      <ExperimenTimeDistance>600</ExperimenTimeDistance>
+      <ExperimentLoopCount>7</ExperimentLoopCount>
+      <EnableIndividualWellScanFieldCount>false</EnableIndividualWellScanFieldCount>
+      <DrawWellOutlineIfSelected>false</DrawWellOutlineIfSelected>
+      <DrawWellOutline>true</DrawWellOutline>
+      <WellsDistanceX>22</WellsDistanceX>
+      <WellsDistanceY>22</WellsDistanceY>
+      <CountOfWellsX>12</CountOfWellsX>
+      <CountOfWellsY>8</CountOfWellsY>
+      <TextColorWellplateDescription>808080</TextColorWellplateDescription>
+      <TextWellPlateHorizontal>A</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>B</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>C</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>D</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>E</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>F</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>G</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>H</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>I</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>J</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>K</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>L</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>M</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>N</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>O</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>P</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>Q</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>R</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>S</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>T</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>U</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>V</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>W</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>X</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>Y</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>Z</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>AA</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>BB</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>CC</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>DD</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>EE</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>FF</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>AB</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>AC</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>AD</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>AE</TextWellPlateHorizontal>
+      <TextWellPlateHorizontal>AF</TextWellPlateHorizontal>
+      <TextWellPlateVertical>1</TextWellPlateVertical>
+      <TextWellPlateVertical>2</TextWellPlateVertical>
+      <TextWellPlateVertical>3</TextWellPlateVertical>
+      <TextWellPlateVertical>4</TextWellPlateVertical>
+      <TextWellPlateVertical>5</TextWellPlateVertical>
+      <TextWellPlateVertical>6</TextWellPlateVertical>
+      <TextWellPlateVertical>7</TextWellPlateVertical>
+      <TextWellPlateVertical>8</TextWellPlateVertical>
+      <TextWellPlateVertical>9</TextWellPlateVertical>
+      <TextWellPlateVertical>10</TextWellPlateVertical>
+      <TextWellPlateVertical>11</TextWellPlateVertical>
+      <TextWellPlateVertical>12</TextWellPlateVertical>
+      <TextWellPlateVertical>13</TextWellPlateVertical>
+      <TextWellPlateVertical>14</TextWellPlateVertical>
+      <TextWellPlateVertical>15</TextWellPlateVertical>
+      <TextWellPlateVertical>16</TextWellPlateVertical>
+      <TextWellPlateVertical>17</TextWellPlateVertical>
+      <TextWellPlateVertical>18</TextWellPlateVertical>
+      <TextWellPlateVertical>19</TextWellPlateVertical>
+      <TextWellPlateVertical>20</TextWellPlateVertical>
+      <TextWellPlateVertical>21</TextWellPlateVertical>
+      <TextWellPlateVertical>22</TextWellPlateVertical>
+      <TextWellPlateVertical>23</TextWellPlateVertical>
+      <TextWellPlateVertical>24</TextWellPlateVertical>
+      <TextWellPlateVertical>25</TextWellPlateVertical>
+      <TextWellPlateVertical>26</TextWellPlateVertical>
+      <TextWellPlateVertical>27</TextWellPlateVertical>
+      <TextWellPlateVertical>28</TextWellPlateVertical>
+      <TextWellPlateVertical>29</TextWellPlateVertical>
+      <TextWellPlateVertical>30</TextWellPlateVertical>
+      <TextWellPlateVertical>31</TextWellPlateVertical>
+      <TextWellPlateVertical>32</TextWellPlateVertical>
+      <TextWellPlateVertical>33</TextWellPlateVertical>
+      <TextWellPlateVertical>34</TextWellPlateVertical>
+      <TextWellPlateVertical>35</TextWellPlateVertical>
+      <TextWellPlateVertical>36</TextWellPlateVertical>
+      <TextWellPlateVertical>37</TextWellPlateVertical>
+      <TextWellPlateVertical>38</TextWellPlateVertical>
+      <TextWellPlateVertical>39</TextWellPlateVertical>
+      <TextWellPlateVertical>40</TextWellPlateVertical>
+      <TextWellPlateVertical>41</TextWellPlateVertical>
+      <TextWellPlateVertical>42</TextWellPlateVertical>
+      <TextWellPlateVertical>43</TextWellPlateVertical>
+      <TextWellPlateVertical>44</TextWellPlateVertical>
+      <TextWellPlateVertical>45</TextWellPlateVertical>
+      <TextWellPlateVertical>46</TextWellPlateVertical>
+      <TextWellPlateVertical>47</TextWellPlateVertical>
+      <TextWellPlateVertical>48</TextWellPlateVertical>
+      <TextWellPlateVertical>49</TextWellPlateVertical>
+      <TextWellPlateVertical>50</TextWellPlateVertical>
+      <TextWellPlateVertical>51</TextWellPlateVertical>
+      <TextWellPlateVertical>52</TextWellPlateVertical>
+      <TextWellPlateVertical>53</TextWellPlateVertical>
+      <TextWellPlateVertical>54</TextWellPlateVertical>
+      <TextWellPlateVertical>55</TextWellPlateVertical>
+      <TextWellPlateVertical>56</TextWellPlateVertical>
+      <TextWellPlateVertical>57</TextWellPlateVertical>
+      <TextWellPlateVertical>58</TextWellPlateVertical>
+      <TextFillColorTextBox>A5A6A1</TextFillColorTextBox>
+      <TextColorTextBox>23272E</TextColorTextBox>
+      <EnableTextBox>false</EnableTextBox>
+      <TextFontSize>12</TextFontSize>
+      <DrawText>false</DrawText>
+      <FlipText>false</FlipText>
+      <AgendaLineDistance>30</AgendaLineDistance>
+      <AgendaTextDistance>20</AgendaTextDistance>
+      <AgendaBulletWidth>15</AgendaBulletWidth>
+      <AgendaTextWidth>120</AgendaTextWidth>
+      <AgendaXPosition>20</AgendaXPosition>
+      <AgendaYPosition>0</AgendaYPosition>
+      <AgendaTextColor>D4D3CC</AgendaTextColor>
+      <AgendaFontSize>10</AgendaFontSize>
+      <EnableAgenda>true</EnableAgenda>
+      <DescriptionTextColor>000000</DescriptionTextColor>
+      <DescriptionFontSize>10</DescriptionFontSize>
+      <EnableDescription>true</EnableDescription>
+      <Description>{ScanningTemplate}96w WH Ines_4 </Description>
+      <BlinkerColorOff>006400</BlinkerColorOff>
+      <BlinkerColorOn>00FF00</BlinkerColorOn>
+      <BlinkerIntervall>500</BlinkerIntervall>
+      <ColorDesign>LeicaDesign</ColorDesign>
+      <ScanFieldStageStartPositionX>15723.785490776025</ScanFieldStageStartPositionX>
+      <ScanFieldStageStartPositionY>10086.572611027497</ScanFieldStageStartPositionY>
+      <ScanFieldStageDistanceX>1380</ScanFieldStageDistanceX>
+      <ScanFieldStageDistanceY>1390</ScanFieldStageDistanceY>
+      <ScanWellStageDistanceX>8999</ScanWellStageDistanceX>
+      <ScanWellStageDistanceY>9005</ScanWellStageDistanceY>
+      <ScanFieldArrayOffsetZ>0</ScanFieldArrayOffsetZ>
+      <AutoFocusPattern>IsStandardAFScanFieldPattern</AutoFocusPattern>
+      <AutoFocusColor>FF7F50</AutoFocusColor>
+      <AutoFocusScanFieldInterval>1</AutoFocusScanFieldInterval>
+      <AutoFocusScanRange>150</AutoFocusScanRange>
+      <AutoFocusSliceCount>7</AutoFocusSliceCount>
+      <EnableAutoFocusDZOffset>false</EnableAutoFocusDZOffset>
+      <AutoFocusDzOffset>0</AutoFocusDzOffset>
+      <MatrixJobPattern />
+      <ZUseMode>2</ZUseMode>
+      <DriftRepeatInterval>1</DriftRepeatInterval>
+      <ShowDriftCompensationFields>true</ShowDriftCompensationFields>
+      <PetriDishVisualisation>false</PetriDishVisualisation>
+      <SelectedAutofocusJobName>AF Job</SelectedAutofocusJobName>
+      <SelectedTrackJobName>5x 01</SelectedTrackJobName>
+      <IsOverlapInPercentSelected>true</IsOverlapInPercentSelected>
+      <MosaicOverlapInPercent>10</MosaicOverlapInPercent>
+      <MosaicOverlapInMicronsX>0</MosaicOverlapInMicronsX>
+      <MosaicOverlapInMicronsY>0</MosaicOverlapInMicronsY>
+      <CanDoRealTime3D>false</CanDoRealTime3D>
+      <AutoRotate3D>false</AutoRotate3D>
+    </Properties>
+  </ScanningTemplate>
+  <ScanFieldArray>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="1" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="A" LabelY="1">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0041524423999999994</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="1" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="A" LabelY="2">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0041566452</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="1" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="A" LabelY="3">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0041858519999999995</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="1" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="A" LabelY="4">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041400544</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="1" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="A" LabelY="5">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041442610000000006</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="1" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="A" LabelY="6">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0041484637999999992</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="0" SlideNo="0" WellX="1" WellY="7" FieldX="1" FieldY="1" JobName="No Job Assigned" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="false" LabelX="A" LabelY="7">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0041776697576072349</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="0" SlideNo="0" WellX="1" WellY="8" FieldX="1" FieldY="1" JobName="No Job Assigned" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="false" LabelX="A" LabelY="8">
+      <FieldXCoordinate>0.015723785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0041568740475496158</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="1">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0042123075999999995</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="2">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0041915102</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="3">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0041707166</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="4">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041749193999999993</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="5">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.004179126</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="6">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0041583285999999995</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="7">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0041875353999999993</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="2" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="B" LabelY="8">
+      <FieldXCoordinate>0.024722785490776025</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.004166738</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="1">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0041971722</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="2">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042513754</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="3">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042055816</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="4">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041847842</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="5">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.004188987</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="6">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0042431940000000005</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="7">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0041723962</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="3" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="C" LabelY="8">
+      <FieldXCoordinate>0.033721785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.004226603199999999</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="1">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0042320334</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="2">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.00423624</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="3">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0041904424</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="4">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041696488</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="5">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041988518</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="6">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0041780582</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="7">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0042072611999999995</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="4" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="D" LabelY="8">
+      <FieldXCoordinate>0.042720785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042114678</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="1">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.004341899</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="2">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042211045999999992</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="3">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042503076</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="4">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0042045137999999994</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="5">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041837164</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="6">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0042379196</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="7">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0042421262</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="5" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="E" LabelY="8">
+      <FieldXCoordinate>0.051719785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042463289999999992</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="1">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0043017633999999994</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="2">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042309655999999991</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="3">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042351722</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="4">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041893746</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="5">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041935811999999992</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="6">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0041727838</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="7">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0042019906</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="6" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="F" LabelY="8">
+      <FieldXCoordinate>0.060718785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042061934</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="1">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.004286628</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="2">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042408303999999994</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="3">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042200367999999993</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="4">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0042242396</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="5">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.004203446</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="6">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0041826486</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="7">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.004261852</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="7" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="G" LabelY="8">
+      <FieldXCoordinate>0.069717785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042160582</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="1">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0043714895999999994</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="2">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042506952</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="3">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.004254898</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="4">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0042091041999999992</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="5">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041883068</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="6">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.004267514</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="7">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0042217164</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="8" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="H" LabelY="8">
+      <FieldXCoordinate>0.078716785490776015</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042759233999999993</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="1">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0042813536</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="2">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.00426056</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="3">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042147624</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="4">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041939688</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="5">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041981716</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="6">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0042023782</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="7">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.004206581</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="9" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="I" LabelY="8">
+      <FieldXCoordinate>0.087715785490776021</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042107838</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="1">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0043912191999999992</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="2">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042454246000000005</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="3">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042496274</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="4">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0042038298</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="5">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0042330366</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="6">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0042372394</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="7">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0041914456</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="10" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="J" LabelY="8">
+      <FieldXCoordinate>0.096714785490776028</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042456488</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="1">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0042510828</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="2">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042302853999999996</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="3">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.004234492</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="4">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.004263695</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="5">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0042179012</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="6">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.004222104</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="7" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="7">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0041763102</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="11" WellY="8" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="K" LabelY="8">
+      <FieldXCoordinate>0.10571378549077602</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042055132</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="12" WellY="1" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="L" LabelY="1">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.010086572611027496</FieldYCoordinate>
+      <FieldZCoordinate>0.0042609476</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="12" WellY="2" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="L" LabelY="2">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.019091572611027494</FieldYCoordinate>
+      <FieldZCoordinate>0.0042401502</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="12" WellY="3" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="L" LabelY="3">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.028096572611027493</FieldYCoordinate>
+      <FieldZCoordinate>0.0042443568</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="12" WellY="4" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="L" LabelY="4">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.037101572611027492</FieldYCoordinate>
+      <FieldZCoordinate>0.0041985591999999993</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="12" WellY="5" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="L" LabelY="5">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.046106572611027491</FieldYCoordinate>
+      <FieldZCoordinate>0.0041777618</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="8" SlideNo="0" WellX="12" WellY="6" FieldX="1" FieldY="1" JobName="5x 01" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="true" LabelX="L" LabelY="6">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.05511157261102749</FieldYCoordinate>
+      <FieldZCoordinate>0.0042069686</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="0" SlideNo="0" WellX="12" WellY="7" FieldX="1" FieldY="1" JobName="No Job Assigned" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="false" LabelX="L" LabelY="7">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.064116572611027489</FieldYCoordinate>
+      <FieldZCoordinate>0.0042861732706319048</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+    <ScanFieldData JobId="0" SlideNo="0" WellX="12" WellY="8" FieldX="1" FieldY="1" JobName="No Job Assigned" Description="MatrixScreener" IsMosaicCalibrationField="false" IsDriftCompensationField="false" IsIndividualAutofocusScanField="false" IsTrackingField="false" IsPumpScanField="false" PumpDelay="1000" PumpTime="1000" Selected="false" Enabled="true" Indicator="IsStandardScanField" IsAutofocusScanField="false" AFScore="0" State="IsActive" AFJobId="0" AFSliceCount="7" DriftScanRange="2.9999999999999997E-05" DriftSliceCount="7" AFScanRange="7.9999999999999993E-05" Shape="IsRectangle" JobAssigned="false" LabelX="L" LabelY="8">
+      <FieldXCoordinate>0.11471278549077601</FieldXCoordinate>
+      <FieldYCoordinate>0.073121572611027488</FieldYCoordinate>
+      <FieldZCoordinate>0.0042653775605742874</FieldZCoordinate>
+      <FieldScanSlices>0</FieldScanSlices>
+      <FieldScanRange>0</FieldScanRange>
+      <FieldRotation>0</FieldRotation>
+    </ScanFieldData>
+  </ScanFieldArray>
+  <ScanWellArray>
+    <ScanWellData SlideNo="1" WellX="1" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0041524423999999994" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0041566452" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0041858519999999995" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041400544" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041442610000000006" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0041484637999999992" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0041776697576072349" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="1" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.015723785490776025" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0041568740475496158" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0042123075999999995" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0041915102" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0041707166" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041749193999999993" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.004179126" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0041583285999999995" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0041875353999999993" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="2" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.024722785490776025" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.004166738" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0041971722" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042513754" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042055816" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041847842" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.004188987" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0042431940000000005" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0041723962" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="3" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.033721785490776021" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.004226603199999999" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0042320334" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.00423624" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0041904424" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041696488" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041988518" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0041780582" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0042072611999999995" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="4" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.042720785490776028" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042114678" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.004341899" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042211045999999992" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042503076" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0042045137999999994" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041837164" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0042379196" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0042421262" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="5" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.051719785490776021" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042463289999999992" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0043017633999999994" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042309655999999991" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042351722" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041893746" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041935811999999992" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0041727838" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0042019906" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="6" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.060718785490776028" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042061934" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.004286628" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042408303999999994" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042200367999999993" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0042242396" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.004203446" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0041826486" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.004261852" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="7" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.069717785490776021" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042160582" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0043714895999999994" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042506952" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.004254898" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0042091041999999992" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041883068" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.004267514" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0042217164" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="8" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.078716785490776015" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042759233999999993" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0042813536" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.00426056" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042147624" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041939688" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041981716" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0042023782" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.004206581" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="9" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.087715785490776021" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042107838" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0043912191999999992" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042454246000000005" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042496274" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0042038298" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0042330366" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0042372394" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0041914456" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="10" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.096714785490776028" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042456488" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0042510828" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042302853999999996" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.004234492" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.004263695" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0042179012" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.004222104" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0041763102" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="11" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.10571378549077602" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042055132" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="1" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.010086572611027496" FieldZCoordinate="0.0042609476" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="2" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.019091572611027494" FieldZCoordinate="0.0042401502" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="3" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.028096572611027493" FieldZCoordinate="0.0042443568" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="4" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.037101572611027492" FieldZCoordinate="0.0041985591999999993" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="5" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.046106572611027491" FieldZCoordinate="0.0041777618" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="6" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.05511157261102749" FieldZCoordinate="0.0042069686" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="7" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.064116572611027489" FieldZCoordinate="0.0042861732706319048" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+    <ScanWellData SlideNo="1" WellX="12" WellY="8" MosaicSingleImageHeight="1" MosaicTileImageOverlapX="0" MosaicTileImageOverlapY="0" MosaicScanImageRotation="0" MosaicSingleImageWidth="1" MosaicImageStartX="0" MosaicImageStartY="0" MosaicImageHeight="1" MosaicImageWidth="1" MosaicImageEndX="0" MosaicImageEndY="0" MosaicFlipImage="false" FieldXStartCoordinate="0.11471278549077601" FieldYStartCoordinate="0.073121572611027488" FieldZCoordinate="0.0042653775605742874" ScanFieldDiameter="20" WellXOffset="0" WellYOffset="0" XCountOfFields="1" YCountOfFields="1" Indicator="IsStandardScanWell" />
+  </ScanWellArray>
+</MatrixScreenerTemplate>
