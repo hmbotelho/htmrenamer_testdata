@@ -1,0 +1,26 @@
+Input File and Path  Information
+==================================
+input directory path: Z:\shared_lab\Noemie\CF\free uptake\20210125CFF15\Noemi After_20210125_115626\Track0009\Append\
+input directory name: Append
+inputDirParent: Track0009
+input name: A_Image0009_01.oib
+input prefix: A_Image0009_01
+
+Input Processing Parameters
+==================================
+Input TimeScale (min/point): 10.0
+number of stddev over mean: 4.0
+Erosions (determines min object size): 2
+DELETE_FIRST_FRAME: False
+Slices to delete from end: 0
+Stained Medium (SRB): False
+Corrected input dimensions: 512, 512, 1, 1, 9
+
+Additional input information
+==================================
+input time unit: sec
+input distance unit: micron
+input X calibration: 6.214; input Y calibration: 6.214 microns/pixel
+frame interval (min) = 10.0
+distance unit = micron
+area unit = sq. microns
