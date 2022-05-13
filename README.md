@@ -11,6 +11,7 @@
     * [2.1. Leica MatrixScreener software](#leica-matrixscreener)
     * [2.2. Leica Navigator software](#leica-navigator)
 * [3. Zeiss datasets](#zeiss)
+* [3. Olympus datasets](#olympus)
 
 
 
@@ -80,3 +81,12 @@ These datasets are used to perform [unit testing](https://github.com/hmbotelho/h
 | #                      | Microscope   | Software version            | Carrier type           | Size (MB) | Images per carrier | Wells | Subpositions (P) | Time points (T) | Slices (Z) | Channels (C) |
 |------------------------|:------------:|:---------------------------:|:----------------------:|:---------:|:------------------:|:-----:|:----------------:|:---------------:|:----------:|:------------:|
 | **[01](./zeiss/01_T)** | Zeiss LSM800 | ZEN 2.5 Lite (blue edition) | 96 well plate (8×12)   | 16.7      | 21                 | 3     | 1                | 7               | 1          | 1            |
+
+
+
+
+
+## <a name="olympus">3. Olympus datasets</a>
+| #                         | Microscope     | Software version            | Carrier type           | Size (MB) | Images per carrier | Wells | Subpositions (P) | Time points (T) | Slices (Z) | Channels (C) |
+|---------------------------|:--------------:|:---------------------------:|:----------------------:|:---------:|:------------------:|:-----:|:----------------:|:---------------:|:----------:|:------------:|
+| **[01](./olympus/01_TC)** | Olympus FV1000 |                             | 96 well plate (8×12)   | 49.3      | 18                 | 2     | 1                | 9               | 1          | 2            |
